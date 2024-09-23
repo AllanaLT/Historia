@@ -1,0 +1,68 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Um dia comum.</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Pela manhã você acordava com o som de sua mãe a chamando.</p>
+            <button class="btn-proximo" data-proximo="1">Ignorar</button>
+            <button class="btn-proximo" data-proximo="2">Pergutar o que ela quer</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você voltar a dormir e logo em seguida leva um xingo de sua mãe.</p>
+            <button class="btn-proximo" data-proximo="3">Levantar da cama</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sua mãe fala para você levantar para se arrumar para ir para a escola.</p>
+            <button class="btn-proximo" data-proximo="5">Ir comer</button>
+            <button class="btn-proximo" data-proximo="6">Tomar banho</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao levantar você percebe que só tem tempo para tomar um banho rápido para ir para a escola ou almoçar.</p>
+            <button class="btn-proximo" data-proximo="7">Tomar banho</button>
+            <button class="btn-proximo" data-proximo="8">Almoçar</button>
+        </div>s
+
+        <div class="passo" id="passo-5">
+            <p>Ao terminar de almoçar, você toma um banho rápido e vai para a escola.(aperte control+r para recarregar a página)</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você toma um banho demorado e quanto sai do banheiro percebe que não da mais tempo de comer.</p>
+            <button class="btn-proximo" data-proximo="8">Ir para a escola sem comer</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Terminando de tomar banho, você vai em direção à escola, mas acaba chegando atrasado.</p>
+            <button class="btn-proximo" data-proximo="9">Ir para a direção comunicar o atraso</button>
+            <button class="btn-proximo" data-proximo="10">Ir para a sala em silêncio</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao terminar de comer você se arruma rapidamente e vai para a escola, chegando a tempo para fazer a prova.(aperte control+r para recarregar a página)</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao comunicar na direção a gestão permite a sua entrada e permite que você faça a prova, mas você só tem o resto do tempo para fazer a prova.(aperte control+r para recarregar a página)</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao tentar entrar em silêncio um dos munitores o flagra e você é mandado para a direção.</p>
+            <button class="btn-proximo" data-proximo="12">Ir para a direção</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ao chegar na direção você recebe uma adivertência e nãop poderá realizar a prova.(aperte control+r para recarregar a página)</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
